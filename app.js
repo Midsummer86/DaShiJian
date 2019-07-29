@@ -1,3 +1,4 @@
+require.cache = null;
 // 1. 加载所需的全部模块
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -45,8 +46,9 @@ global.rootPath = __dirname;
 
 app.use(require('./router/home'));
 // 使用中间件，控制，只有登录才能访问后台页面
+
 // app.use((req, res, next) => {
-//     if (req.session.isLogin || req.url === '/admin/login.html' || req.url === '/api/login/checkLogin') {
+//     if (req.session.isLogin || req.url === '/admin/login.html' || req.url === '/admin/checkLogin') {
 //         next();
 //     } else {
 //         res.send('<script>alert("请先登录"); location.href="/admin/login.html";</script>');

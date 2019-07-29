@@ -207,7 +207,7 @@
     <script>
         var id = location.search;
        $.get('/getArticleById' + id, function (res) {
-            // console.log(res);
+            console.log(res);
             if(res.code === 200){
                 var str = template('moban',{
                     data: res.data,

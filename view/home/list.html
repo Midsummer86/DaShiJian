@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.pagination.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <script type="text/javascript" src="assets/js/jquery-1.12.4.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.pagination.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./assets/twbs-pagination/jquery.twbsPagination.min.js"></script>
 </head>
 
 <body>
@@ -33,21 +35,11 @@
                 <a href="javascript:;" class="level_one"><i class="fa fa-list-ul"></i>全部分类</a>
                 <ul class="level_two">
                     <li class="up"></li>
-                    <li><a href="#">最 新</a></li>
-                    <li><a href="#">科 技</a></li>
-                    <li><a href="#">股 市</a></li>
-                    <li><a href="#">商 品</a></li>
-                    <li><a href="#">外 汇</a></li>
-                    <li><a href="#">公 司</a></li>
+                    <!-- 这里放导航条 -->
                 </ul>
             </div>
             <ul class="left_menu fl">
-                <li><a href="#">最 新</a></li>
-                <li><a href="#">科 技</a></li>
-                <li><a href="#">股 市</a></li>
-                <li><a href="#">商 品</a></li>
-                <li><a href="#">外 汇</a></li>
-                <li><a href="#">公 司</a></li>
+                <!-- 这里放导航条 -->
             </ul>
             <ul class="right_menu fr">
                 <li><a href="#">科技专题</a></li>
@@ -59,94 +51,12 @@
     <div class="main_con clearfix">
         <div class="left_con setfr">
 
-            <div class="list_title">
-                <h3>科 技</h3>
+            <div class="neirong">
+                <!-- 这里放内容 -->
             </div>
-
-            <div class="common_news_list">
-                <a href="#" class="list_pic"><img src="assets/images/pic09.jpg" alt=""></a>
-                <h4><a href="#">亚马逊金融试水中国？背后却是和华尔街的“金融战争” </a></h4>
-                <p>亚马逊抛弃了中国的买家们，却难以割舍庞大的卖家市场，有消息指出亚马逊中国将针对中国庞大的卖家群体推出一项贷款推荐计划。在连续对印度、墨西哥等新兴市场大力推广线上支付服务后，亚马逊金融试水进军中国市场的信号终于被放出。
-                </p>
-                <div class="new_info">
-                    <span>标签：财经&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<i class="fa fa-eye"></i>&nbsp;阅读( 5
-                        )&nbsp;&nbsp;&nbsp;<i class="fa fa-commenting"></i>&nbsp;评论( 10 )</span>
-                    <b>发布于 2018-08-30 12:18:58</b>
-                </div>
+            <div id="pagination" class="page">
+                <ul class="pagination" id="pagination"></ul>
             </div>
-
-            <div class="common_news_list">
-                <a href="#" class="list_pic"><img src="assets/images/pic03.jpg" alt=""></a>
-                <h4><a href="#">马斯克的新花样？连接人脑和电脑的初创公司又筹了一笔钱,马斯克的新花样？连接人脑和电脑的初创公司又筹了一笔钱</a></h4>
-                <p>亚马逊抛弃了中国的买家们，却难以割舍庞大的卖家市场，有消息指出亚马逊中国将针对中国庞大的卖家群体推出一项贷款推荐计划。在连续对印度、墨西哥等新兴市场大力推广线上支付服务后，亚马逊金融试水进军中国市场的信号终于被放出。
-                </p>
-                <div class="new_info">
-                    <span>标签：财经&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<i class="fa fa-eye"></i>&nbsp;阅读( 5
-                        )&nbsp;&nbsp;&nbsp;<i class="fa fa-commenting"></i>&nbsp;评论( 10 )</span>
-                    <b>发布于 2018-08-30 12:18:58</b>
-                </div>
-            </div>
-
-            <div class="common_news_list">
-                <a href="#" class="list_pic"><img src="assets/images/pic05.jpg" alt=""></a>
-                <h4><a href="#">马斯克的新花样？连接人脑和电脑的初创公司又筹了一笔钱</a></h4>
-                <p>亚马逊抛弃了中国的买家们，却难以割舍庞大的卖家市场，有消息指出亚马逊中国将针对中国庞大的卖家群体推出一项贷款推荐计划。在连续对印度、墨西哥等新兴市场大力推广线上支付服务后，亚马逊金融试水进军中国市场的信号终于被放出。
-                </p>
-                <div class="new_info">
-                    <span>标签：财经&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<i class="fa fa-eye"></i>&nbsp;阅读( 5
-                        )&nbsp;&nbsp;&nbsp;<i class="fa fa-commenting"></i>&nbsp;评论( 10 )</span>
-                    <b>发布于 2018-08-30 12:18:58</b>
-                </div>
-            </div>
-
-            <div class="common_news_list">
-                <a href="#" class="list_pic"><img src="assets/images/pic07.jpg" alt=""></a>
-                <h4><a href="#">马斯克的新花样？连接人脑和电脑的初创公司又筹了一笔钱</a></h4>
-                <p>亚马逊抛弃了中国的买家们，却难以割舍庞大的卖家市场，有消息指出亚马逊中国将针对中国庞大的卖家群体推出一项贷款推荐计划。在连续对印度、墨西哥等新兴市场大力推广线上支付服务后，亚马逊金融试水进军中国市场的信号终于被放出。
-                </p>
-                <div class="new_info">
-                    <span>标签：财经&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<i class="fa fa-eye"></i>&nbsp;阅读( 5
-                        )&nbsp;&nbsp;&nbsp;<i class="fa fa-commenting"></i>&nbsp;评论( 10 )</span>
-                    <b>发布于 2018-08-30 12:18:58</b>
-                </div>
-            </div>
-
-            <div class="common_news_list">
-                <a href="#" class="list_pic"><img src="assets/images/pic10.jpg" alt=""></a>
-                <h4><a href="#">马斯克的新花样？连接人脑和电脑的初创公司又筹了一笔钱</a></h4>
-                <p>亚马逊抛弃了中国的买家们，却难以割舍庞大的卖家市场，有消息指出亚马逊中国将针对中国庞大的卖家群体推出一项贷款推荐计划。在连续对印度、墨西哥等新兴市场大力推广线上支付服务后，亚马逊金融试水进军中国市场的信号终于被放出。
-                </p>
-                <div class="new_info">
-                    <span>标签：财经&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<i class="fa fa-eye"></i>&nbsp;阅读( 5
-                        )&nbsp;&nbsp;&nbsp;<i class="fa fa-commenting"></i>&nbsp;评论( 10 )</span>
-                    <b>发布于 2018-08-30 12:18:58</b>
-                </div>
-            </div>
-
-            <div class="common_news_list">
-                <a href="#" class="list_pic"><img src="assets/images/pic04.jpg" alt=""></a>
-                <h4><a href="#">马斯克的新花样？连接人脑和电脑的初创公司又筹了一笔钱</a></h4>
-                <p>亚马逊抛弃了中国的买家们，却难以割舍庞大的卖家市场，有消息指出亚马逊中国将针对中国庞大的卖家群体推出一项贷款推荐计划。在连续对印度、墨西哥等新兴市场大力推广线上支付服务后，亚马逊金融试水进军中国市场的信号终于被放出。
-                </p>
-                <div class="new_info">
-                    <span>标签：财经&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<i class="fa fa-eye"></i>&nbsp;阅读( 5
-                        )&nbsp;&nbsp;&nbsp;<i class="fa fa-commenting"></i>&nbsp;评论( 10 )</span>
-                    <b>发布于 2018-08-30 12:18:58</b>
-                </div>
-            </div>
-
-            <div id="pagination" class="page"></div>
-            <script>
-                $(function() {
-                    $("#pagination").pagination({
-                        currentPage: 2,
-                        totalPage:8,
-                        callback: function(current) {
-                            alert('ok!');
-                        }
-                    });
-                });
-            </script>
 
         </div>
         <div class="right_con setfl">
@@ -225,7 +135,85 @@
         <p>CopyRight © 2019 深圳大事件信息技术股份有限公司   All Rights Reserved</p>
         <p>电话：0755-****888    粤ICP备*******8号</p>
     </div>
+    <script src="./assets/js/template-web.js"></script>
+    <script id="neirong" type="text/html">
+        <div class="list_title">
+            <h3>{{arr[0].catename}}</h3>
+        </div>
+        {{each arr}}
+        <div class="common_news_list">
+            <a href="./detail.html?id={{$value.id}}" class="list_pic"><img src="{{$value.file}}" alt=""></a>
+            <h4><a href="./detail.html?id={{$value.id}}">{{$value.title}}</a></h4>
+            <p>{{$value.desc}}</p>
+            <div class="new_info">
+                <span>标签：{{$value.catename}}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<i class="fa fa-eye"></i>
+                    &nbsp;阅读( {{$value.click}} )&nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-commenting"></i>&nbsp;评论( 10 )
+                </span>
+                <b>{{nickname}}发布于 {{addtime}}</b>
+            </div>
+        </div>
+        {{/each}}
+    </script>
+    <script>
+        var id = location.search.replace(/\D/g, '');
+        var params = {
+            cateid: id,//分类id
+            // keywords: '关键字', // 搜索关键字，默认是null，表示不搜索任何文章
+            // state: '已发布', // 默认是已发布，可选草稿
+            // pageNum: 5, // 表示每页显示5条数据
+            page: 1 // 分页页码
+        };
+        var kg = true;
+        function loadData(){
+            $.get('/getArticlesWithPage', params, function (res) {
+                // console.log(res)
+                if (res.code === 200) {
+                    var str = template('neirong',{
+                        arr : res.data
+                    })
+                    $('.neirong').html(str)
+                    if(kg){
+                        page(res.pageTotal);
+                        kg = false;
+                    }
+                }
+            },'json');
+        }
+        loadData();
+    </script>
 
+
+    <!-- 分页 -->
+    <script type="text/javascript">
+        function page(pageTotal){
+            $(function () {
+                window.pagObj = $('#pagination').twbsPagination({
+                    totalPages: pageTotal,
+                    visiblePages: 10,
+                }).on('page', function (event, page) {
+                    params.page = page;
+                    loadData();
+                });
+            });
+        }
+    </script>
+    <!-- 导航条模板 -->
+    <script id="category" type="text/html">
+        {{each nav}}
+            <li><a href="list.html?id={{$value.id}}">{{$value.name}}</a></li>
+        {{/each}}
+    </script>
+    <script>
+    // 获取导航条 
+        $.get('/getCategory', function (res) {
+            var str = template('category', {
+                nav: res
+            })
+            $('.left_menu').html(str);
+            $('.level_two').append(str);
+        })
+    </script>
 </body>
 
 </html>
