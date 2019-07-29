@@ -63,6 +63,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" id="model_shutoff">关闭</button>
+                    
                     <button type="button" class="btn btn-primary" id="model_add">新增</button>
                 </div>
             </div>
@@ -82,8 +83,7 @@
         var url;
         $('#model_add').click(function () {
             // alert('add');
-            console.log($('#recipient-icon').val() && )
-            if($('#recipient-icon').val() === ''){
+            if($('#recipient-icon').val() === '' || $('#recipient-name').val() === ''){
                 alert('内容不能为空')
                 return false;
             }
